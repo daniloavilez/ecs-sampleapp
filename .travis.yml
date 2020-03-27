@@ -1,0 +1,6 @@
+language: csharp
+solution: ECS.SampleApp.sln
+mono: none
+dotnet: 3.1.101
+script:
+ - dotnet restore
